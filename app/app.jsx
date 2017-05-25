@@ -5,6 +5,10 @@ var ReactDOM = require('react-dom');
 
 var Main = require('Main');
 
+//Load foundation-sites
+
+require('style-loader!css-loader!foundation-sites/dist/css/foundation.min.css')
+$(document).foundation();
 
 
 // var objOne = {
