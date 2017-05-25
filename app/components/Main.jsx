@@ -31,10 +31,14 @@ var Main = (props) => {
         <HashRouter>
           <div>
             <Nav/>
-            <h2> Main component </h2>
-            <Route exact path="/" component={Weather}/>
-            <Route path='/about' component={About}/>
-            <Route path='/examples' component={Examples}/>
+            <div className="row">
+              <div className="columns medium-6 large-4 small-centered">
+                <Route exact path="/" component={Weather}/>
+                <Route path='/about' component={About}/>
+                <Route path='/examples' component={Examples}/>
+              </div>
+            </div>
+
           </div>
         </HashRouter>
     </div>
