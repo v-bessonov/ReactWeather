@@ -10,6 +10,8 @@ var Main = require('Main');
 require('style-loader!css-loader!foundation-sites/dist/css/foundation.min.css')
 $(document).foundation();
 
+//App css
+require('style-loader!css-loader!applicationStyles')
 
 // var objOne = {
 //   name : 'Andrew',
